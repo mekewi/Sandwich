@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1639654267378470944}
   - component: {fileID: 7753578296536934934}
   - component: {fileID: 4082151366565877487}
+  - component: {fileID: 830799443666116913}
   m_Layer: 0
   m_Name: Tomato
   m_TagString: Stuffing
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &830799443666116913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2349296836677394995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12c8a498d0e44417b82718df6f17b57c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
