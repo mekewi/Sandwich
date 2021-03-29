@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ea142756-79f4-4056-9901-c48df46a7bdc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/IngredientGridSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/IngredientGridSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/WinLoseEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2348FB5E-CC9E-4E68-9F37-F7D7FADAEA9A/e5/ae53bdc9/Tween.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelSteps.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/DesignPattern/Observables/GameEventsHub.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SwipeLogger.cs" />
+      <option value="$PROJECT_DIR$/Assets/DesignPattern/Singleton.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SwipeDetector.cs" />
+      <option value="$PROJECT_DIR$/Assets/MatchWidth.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelSteps.cs" />
+      <option value="$PROJECT_DIR$/Assets/GamePlay.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Events/CellSwipedEvent.cs" />
+      <option value="$PROJECT_DIR$/Assets/CellContent.cs" />
+      <option value="$PROJECT_DIR$/Assets/Cell.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Events/WinLoseEvent.cs" />
+      <option value="$PROJECT_DIR$/Assets/WinnerChecker2024.cs" />
+      <option value="$PROJECT_DIR$/Assets/GridManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/MainSceneUI.cs" />
+      <option value="$PROJECT_DIR$/Assets/UIManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DesignPattern/Observables/GameEventsHub.cs" />
+      <option value="$PROJECT_DIR$/Assets/WinnerChecker.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GridSettings.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1qP4bXMNWlw0g7KYrfxVGikGyAl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34975636" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="Inspections-C#" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="86292">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="86292" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea142756-79f4-4056-9901-c48df46a7bdc" name="Default Changelist" comment="" />
+      <created>1616967967396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616967967396</updated>
+      <workItem from="1616967994879" duration="16319000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/DesignPattern/Observables/Observable.cs</url>
+          <line>11</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/DesignPattern/Observables/Observable.cs" initialLine="11" containingFunctionPresentation="method 'Notify'">
+            <startOffsets>
+              <option value="274" />
+            </startOffsets>
+            <endOffsets>
+              <option value="325" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/DesignPattern/Observables/GameEventsHub.cs</url>
+          <line>34</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/DesignPattern/Observables/GameEventsHub.cs" initialLine="34" containingFunctionPresentation="method 'Notify'">
+            <startOffsets>
+              <option value="945" />
+            </startOffsets>
+            <endOffsets>
+              <option value="976" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
