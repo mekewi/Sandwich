@@ -28,3 +28,4 @@ MonoBehaviour:
   - {fileID: 2349296836677394995, guid: 6528793be95d08344afab74352046e4b, type: 3}
   baseCellPrefab: {fileID: 3092261024911807660, guid: 229a4e4003dbd422c8e0212f1e16efd2,
     type: 3}
+  isStackedCells: 1
