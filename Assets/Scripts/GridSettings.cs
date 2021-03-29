@@ -9,6 +9,7 @@ public class GridSettings : ScriptableObject
 	public float spaceBetweenCells;
 	public List<GameObject> gamePlayCells;
 	public GameObject baseCellPrefab;
+	public bool isStackedCells;
 }
 [Serializable]
 public struct IntVector2
