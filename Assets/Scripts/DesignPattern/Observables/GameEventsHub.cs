@@ -7,6 +7,13 @@ public class GameEventsHub : Singleton<GameEventsHub>
 {
     [SerializeField]
     public List<ScriptableObject> allEvents = new List<ScriptableObject>();
+
+    public override void Awake()
+    {
+        base.Awake();
+        DontDestroyOnLoad(gameObject);
+    }
+
     public T GetEvent<T>() where T : ScriptableObject
     {
         T t = allEvents.FirstOrDefault(x => x.GetType() == typeof(T)) as T;
