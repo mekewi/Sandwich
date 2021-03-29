@@ -20,4 +20,20 @@ public class Cell : MonoBehaviour
 		}
 		return allChiled;
 	}
+
+	public int GetCellPower()
+	{
+		var allChiled  = GetChild();
+		int totalPower = 0;
+		foreach (var cell in allChiled)
+		{
+			var cellContent = cell.GetComponent<CellContent>();
+			if (cellContent == null)
+			{
+				continue;
+			}
+			totalPower += cellContent.power;
+		}
+		return totalPower;
+	}
 }

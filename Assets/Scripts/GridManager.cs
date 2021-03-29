@@ -11,6 +11,7 @@ public class GridManager : Singleton<GridManager>
 	public GridSettings gridSettings;
 	public Cell[,] grid;
 	public Cell lastCellAdded;
+	public GameObject dustParticle;
 	void Start()
 	{
 		GenerateGrid();
@@ -55,13 +56,13 @@ public class GridManager : Singleton<GridManager>
 			AddRandomToCell(count, newIngrediant);
 		}
 	}
-	public GameObject GetSpecificIngrediant(string tag)
+	public GameObject GetSpecificIngrediant(string cellName)
 	{
-		if (tag == "Random")
+		if (cellName == "Random")
 		{
 			return GetRandomGamePlayCell();
 		}
-		return gridSettings.gamePlayCells.Find(x => x.tag == tag);
+		return gridSettings.gamePlayCells.Find(x => x.name.ToLower() == cellName.ToLower());
 	}
 
 	public List<Cell> GetAllOccupiedCell()
@@ -131,6 +132,10 @@ public class GridManager : Singleton<GridManager>
 						continue;
 					}
 					neighborCell = grid[cell.cellX, cell.cellY - 1];
+					if (!neighborCell.HasChiled())
+					{
+						allAvailableNeighbor.Add(neighborCell);
+					}
 					break;
 				default:
 					return null;
@@ -207,7 +212,7 @@ public class GridManager : Singleton<GridManager>
 				targetCell = grid[cell.cellX - 1, cell.cellY];
 				break;
 			case Direction.Up:
-				if (cell.cellY + 1 > gridSettings.gridSize.y)
+				if (cell.cellY + 1 >= gridSettings.gridSize.y)
 				{
 					return null;
 				}
@@ -236,10 +241,11 @@ public class GridManager : Singleton<GridManager>
 		GameObject pivot = new GameObject();
 		pivot.transform.position = cell.transform.position;
 		Cell targetCell = GetTargetCell(data.Direction,cell);
-		if (targetCell == null)
+		if (targetCell == null || targetCell.GetCellPower() != cell.GetCellPower())
 		{
 			return;
 		}
+		
 		Vector3 dir;
 		Vector3 dirRotation;
 		if (data.Direction == Direction.Right)
@@ -273,7 +279,9 @@ public class GridManager : Singleton<GridManager>
 				item.SetParent(targetCell.transform);
 			}
 			Destroy(pivot);
-			GamePlay.Instance.CheckWin();
+			Destroy(Instantiate(dustParticle, targetCell.transform.position,Quaternion.identity),0.5f);
+			
+			GameEventsHub.Instance.Notify<CellSwipedEvent>(targetCell);
 		};
 	}
 	public void AddPivot(Cell cell,Cell targetCell,Transform pivot,Vector3 pivotDir)
